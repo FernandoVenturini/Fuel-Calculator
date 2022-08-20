@@ -1,0 +1,147 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('img.jpg');
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.title {
+    text-align: center;
+    color: green;
+    margin: 24px 0;
+    font-size: 38px;
+}
+
+.form label{
+    color: orangered;
+    font-size: 20px;
+}
+
+.input {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.button {
+    width: 30%;
+    height: 48px;
+    background-color: #119cea;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    background-color: #00b63e;
+    max-width: 520px;
+    padding: 20px 28px;
+    text-align: center;
+    margin-top: 28px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #696969;
+    transition: transform 0.8s;
+}
+
+.hide {
+    display: none;
+}
+
+.result:hover {
+    transform: scale(1.1);
+}
+
+.result span {
+    color: white;
+    margin-bottom: 12px;
+}
+
+#text-result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info {
+    position: fixed;
+    right: 14px;
+    bottom: 22px;
+}
+
+.info-img {
+    width: 56px;
+    height: 56px;
+}
+
+.tooltip {
+    color: white;
+    background-color: rgb(15, 15, 15);
+    padding: 10px 8px;
+    border-radius: 4px;
+    position: relative;
+    bottom: 28px;
+    display: none;
+}
+
+.info:hover .tooltip {
+    display: inline;
+}
+
+.about {
+    max-width: 620px;
+    background-color: #242424;
+    padding: 24px 14px;
+    border: 1px solid #696969;
+    border-radius: 4px;
+}
+
+.about p {
+    color: white;
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+
+.button-calc {
+    background-color: #119cea;
+    height: 48px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 24px;
+    border-radius: 4px;
+}
